@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Graphic : NPR</title>
+
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <!--JQUERY-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!--BOOTSTRAP CSS-->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <!--BOOTSTRAP JS-->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <!--PYM 0.1.0
+    <script src="//cdnjs.cloudflare.com/ajax/libs/pym/0.1.0/pym.js" type="text/javascript"></script> -->
+    <!--D3-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.9/d3.js"></script>
+   
+
+    
+    <style type="text/css">
+        /* base styles */
+        html { -webkit-text-size-adjust: none; }
+        body {
+            margin: 0;
+            padding: 0;
+            font: 14px/1.4 Arial, Helvetica, sans-serif;
+            color: black;
+        }
+        h1 {
+            margin: 0 0 6px 0;
+            font-size: 20px;
+            color: black;
+        }
+        h2 {
+            font-weight: normal;
+            color: #666;
+            font-size: 14px;
+            margin: 0 0 22px 0;
+        }
+        .footnotes { margin-bottom: 20px; }
+        .footnotes h4 {
+            margin: 2px 0 7px 0;
+            color: #666;
+            font-size: 11px;
+        }
+        .footnotes p,
+        .footer p {
+            margin: 2px 0 0 0;
+            font-size: 11px;
+            line-height: 1.3;
+            color: #808080;
+        }
+        a, a:link, a:visited {
+            color: #4774CC;
+            text-decoration: none;
+        }
+        a:hover, a:active { opacity: 0.7; }
+    </style>
+
+    <!--D3 Chart Styles-->
+    <style type="text/css">
+
+        .bar:hover {
+            opacity: .75;
+        } 
+
+        .axis {
+            font: 13px sans-serif;
+        }
+
+        .x.axis path {
+            display: none;
+        }
+
+        .text {
+          fill: white;
+          font: 13px sans-serif;
+          text-anchor: middle;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        .label {
+            fill: black;
+            font: 10px sans-serif;
+        }
+
+        h2 {
+            margin-top: 0px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>IRS Phone Scam</h1>
+    <h2>A widespread scam where callers pretend to be from the IRS is duping thousands of people out of millions of dollars. The phenomenon is nationwide, but California residents are losing more than other states. Federal inspectors estimate that victims have lost at least $4 million in total. 25% of that total is from California.</h2>
+
+    <div id="graphic"></div>
+    
+    <div class="footnotes">
+        <!--<h4>Notes</h4> 
+        <p>Lorem ipsum dolor sit amet, <strong>consectetur adipisicing elit</strong>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>-->
+    </div>
+
+    <div class="footer">
+        <p>Source: TIGTA</p>
+        <p>Credit: Scott Pham/NBC Bay Area</p>
+    </div>
+
+    <script src="js/lib/pym.js" type="text/javascript"></script>
+    <script src="js/graphic.js" type="text/javascript"></script>
+</body>
+</html>
